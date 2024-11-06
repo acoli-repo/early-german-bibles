@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>5013775</docId>
+    <title>v2_bsb00025979_00100_full_2004__0_default</title>
+    <uploadTimestamp>1730849173860</uploadTimestamp>
+    <uploader>christian.chiarcos@uni-a.de</uploader>
+    <uploaderId>155734</uploaderId>
+    <nrOfPages>1</nrOfPages>
+    <pageId>82435187</pageId>
+    <url>https://files.transkribus.eu/Get?fileType=view&amp;id=YYOKWQLMIPMPKGRXWGEGSNLY</url>
+    <thumbUrl>https://files.transkribus.eu/Get?fileType=thumb&amp;id=YYOKWQLMIPMPKGRXWGEGSNLY</thumbUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_5013775</fimgStoreColl>
+    <origDocId>0</origDocId>
+    <collectionList>
+        <colList>
+            <colId>1468090</colId>
+            <colName>Zainer-Bibel</colName>
+            <description>created by christian.chiarcos@uni-a.de</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+        </colList>
+    </collectionList>
+    <mainColId>1468090</mainColId>
+</trpDocMetadata>
