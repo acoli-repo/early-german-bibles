@@ -8,8 +8,8 @@
 - [`jpg/1*`](jpg) (NT-bsb00025979) Neues Testament, 1475, Exemplar der BSB
 	- Scans (jpg)
 	- 1475  Zainer-Bibel, Band 2, NT, Augsburg Augspurg): Günther Zainer (BSB-Katalog -> 2 Inc.s.a. 194-2) 
-- [`transkribus/`](transkribus/)
-	- Proof-of-principle für Texterkennung mit Transkribus
-	- Hinweis: Es gibt verschiedene Modelle für historisches Deutsch. Andere könnten besser performen. Noch besser werden Ergebnisse, wenn wir nachkorrigieren lassen und neu trainieren.
+- [`ocr-test`](ocr-test)
+	- Proof-of-principle für Texterkennung mit Transkribus und Kraken 5
+	- Hinweis: Alle einschlägigen Kraken-Modelle getestet. Es gibt auch für Transkribus verschiedene Modelle für historisches Deutsch. Andere könnten besser performen. Noch besser werden Ergebnisse, wenn wir nachkorrigieren lassen und neu trainieren.
 - [`pagexml/`](pagexml/)
 	- OCR with Kraken 5, model reichenau_lat_cat_099218.mlmodel (after eval)

@@ -1,0 +1,48 @@
+Loading ANN /scratch/chiarcch/ocr/venv/lib/python3.11/site-packages/kraken/blla.mlmodel	✓
+Loading ANN models/reichenau_lat_cat_099218.mlmodel	✓
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /scratch/chiarcch/ocr/venv/bin/kraken:8 in <module>                          │
+│                                                                              │
+│   5 from kraken.kraken import cli                                            │
+│   6 if __name__ == '__main__':                                               │
+│   7 │   sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])     │
+│ ❱ 8 │   sys.exit(cli())                                                      │
+│   9                                                                          │
+│                                                                              │
+│ /scratch/chiarcch/ocr/venv/lib/python3.11/site-packages/click/core.py:1442   │
+│ in __call__                                                                  │
+│                                                                              │
+│ /scratch/chiarcch/ocr/venv/lib/python3.11/site-packages/click/core.py:1363   │
+│ in main                                                                      │
+│                                                                              │
+│ /scratch/chiarcch/ocr/venv/lib/python3.11/site-packages/click/core.py:1862   │
+│ in invoke                                                                    │
+│                                                                              │
+│ /scratch/chiarcch/ocr/venv/lib/python3.11/site-packages/click/core.py:1799   │
+│ in _process_result                                                           │
+│                                                                              │
+│ /scratch/chiarcch/ocr/venv/lib/python3.11/site-packages/click/core.py:794 in │
+│ invoke                                                                       │
+│                                                                              │
+│ /scratch/chiarcch/ocr/venv/lib/python3.11/site-packages/kraken/kraken.py:384 │
+│ in process_pipeline                                                          │
+│                                                                              │
+│   381 │   if batch_input and suffix:                                         │
+│   382 │   │   for batch_expr in batch_input:                                 │
+│   383 │   │   │   for in_file in glob.glob(str(Path(batch_expr).expanduser() │
+│ ❱ 384 │   │   │   │   input.append((Path(in_file), Path(in_file).with_suffix │
+│   385 │                                                                      │
+│   386 │   # parse pdfs                                                       │
+│   387 │   if format_type == 'pdf':                                           │
+│                                                                              │
+│ /usr/lib/python3.11/pathlib.py:691 in with_suffix                            │
+│                                                                              │
+│    688 │   │   if f.sep in suffix or f.altsep and f.altsep in suffix:        │
+│    689 │   │   │   raise ValueError("Invalid suffix %r" % (suffix,))         │
+│    690 │   │   if suffix and not suffix.startswith('.') or suffix == '.':    │
+│ ❱  691 │   │   │   raise ValueError("Invalid suffix %r" % (suffix))          │
+│    692 │   │   name = self.name                                              │
+│    693 │   │   if not name:                                                  │
+│    694 │   │   │   raise ValueError("%r has an empty name" % (self,))        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+ValueError: Invalid suffix 'ocr.txt'
