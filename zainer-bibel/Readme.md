@@ -11,3 +11,5 @@
 - [`transkribus/`](transkribus/)
 	- Proof-of-principle für Texterkennung mit Transkribus
 	- Hinweis: Es gibt verschiedene Modelle für historisches Deutsch. Andere könnten besser performen. Noch besser werden Ergebnisse, wenn wir nachkorrigieren lassen und neu trainieren.
+- [`pagexml/`](pagexml/)
+	- OCR with Kraken 5, model reichenau_lat_cat_099218.mlmodel (after eval)
